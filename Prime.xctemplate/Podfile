@@ -1,0 +1,17 @@
+platform :ios, '11.0'
+
+target '___PACKAGENAME___' do
+    use_frameworks!
+
+    # Pods for ___PACKAGENAME___
+
+    target '___PACKAGENAME___Tests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+
+    target '___PACKAGENAME___UITests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+end
